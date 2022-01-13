@@ -1,0 +1,545 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* N A V B A R */
+.wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 65px;
+    font-weight: 800;
+    float: left;
+    font-family: cooper;
+    color: brown;
+    text-decoration: none;
+    padding-left: 85px;
+}
+
+.menu {
+    float: right;
+    padding-right: 85px;
+    font-size: 21px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 95px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #BEDCFA;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none; 
+ }
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.home-bg-page {
+    margin-bottom: 15px;
+}
+
+/*---------- H O M E ----------*/
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #BB371A;
+}
+
+.kolom .deskripsi2 {
+    font-size: 22px;
+    color: black;
+}
+
+.kolom h1 {
+    font-family: serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: #BB371A;
+    width: 58%;
+    line-height: 80px;
+    text-align: left;
+    margin-left: 79px;
+}
+
+/*h1 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 65px;
+  
+    color: #BB371A;
+    width: 70%;
+    line-height: 80px;
+    text-align: left;
+    margin-left: 67px;
+}*/
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #BB371A;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+}
+
+a.tbl-logout-menu {
+    background: brown;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 12px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+a.tbl-logout-menu:hover {
+    background:#FB743E;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    padding: 35px 0px 35px 0px;
+}
+
+
+.btn-primary {
+    background: #FB743E;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background: #004d9b;
+    text-decoration: none;
+}
+
+.bg-pulsa {
+    background-color: #ffebb4;
+    border-radius: 40px;
+    margin: 0px 75px 0px 75px;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+}
+
+.kolom p {
+    width: 90%;
+    padding-left: 10%;
+    font-size: 20px;
+}
+
+.kolom-kuota p{
+    margin: 0px 45px 15px 45px;
+}
+
+.row-card-pricing {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0px;
+    margin-bottom: 50px;
+}
+
+.card-pricing {
+    border: 3px solid rgb(238, 100, 76);
+    border-radius: 30px;
+    text-align: left;
+    padding: 20px;
+    margin: 0px 17px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.description-pricing {
+    height: 55vh;
+}
+
+.description-pricing h3 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    color: brown;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.label h3 {
+    background: #BEDCFA;
+    border-radius: 50px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 20px;
+    
+}
+
+.description-pricing h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+
+.description-pricing h1 span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.feature-list p {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: -16px;
+}
+
+.feature-list p img {
+    margin-right: 8px;
+}
+
+/*---------- KUOTA ------------- */
+.heading-kuota {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row-card-kuota {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0px;
+    margin-bottom: 60px;
+}
+
+.bg-kuota {
+    margin: 0px 75px 0px 75px;
+}
+
+.card-kuota {
+    border: 3px solid #004d9b;
+    border-radius: 30px;
+    text-align: left;
+    padding: 30px;
+    margin: 0px 17px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.description-kuota {
+    height: 45vh;
+}
+
+.description-kuota h3 {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(9, 0, 131);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.label-kuota h3 {
+    border: solid 2px brown;
+    border-radius: 20px;
+    padding: 3px 10px 3px 10px;
+}
+
+.description-kuota h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+
+.description-kuota h1 span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*.kuota-kanker {
+    padding-top: 100px;
+}*/
+
+.feature-list-kuota p {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: -16px;
+}
+
+.feature-list-kuota p img {
+    margin-right: 8px;
+}
+
+.label-kuota-harga{
+    color: #ff9100;
+    margin: 23px 0px 17px 4px;
+    font-size: 26px;
+}
+
+.btn-primary-kuota {
+    background: #004d9b;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.btn-primary-kuota:hover {
+    background: #FB743E;
+    text-decoration: none;
+}
+
+/*--------- TIPS & TRICKS ----------*/
+.bg-tnt {
+    background-color: #DCEDC1;
+    border-radius: 40px;
+    margin: 0px 75px 52px 75px;
+}
+
+
+/*---------- CONTACT US ----------*/
+.bg-contactus    {
+    margin: 0px 75px 52px 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    color: black;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 13px;
+    margin-right: 30px;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-info .contact-form {
+    flex: 1;
+}
+
+.contact-info i {
+    margin-right: 20px;
+    font-size: 25px;
+} 
+
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-box {
+    background:#f0f0f0;
+    color: black;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba (0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9; 
+}
+
+.contact-form .text-box:first-child {
+    margin-right: 15px;
+}
+
+.contact-form textarea {
+    background: #f0f0f0;
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .send-btn {
+    float: right;
+    background: #004d9b;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form .send-btn:hover {
+    background: #94D0CC;
+}
+
+/*--------- F O O T E R ----------*/
+footer {
+   background: #BEDCFA ;
+   height: auto;
+   width: 100%;
+   padding-top: 40px;
+   color: black;
+}
+
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: brown;
+}
+
+.footer-bottom {
+    background: #47597E;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-bottom p {
+    font-size: 10px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
