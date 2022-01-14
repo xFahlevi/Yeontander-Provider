@@ -20,7 +20,7 @@ public class Koneksi {
 
     public static void ambilKoneksi() {
         try {
-            String db = "jdbc:mysql://localhost:3306/yeontander2";
+            String db = "jdbc:mysql://localhost:3306/yeontanderpulsa";
             String user = "root";
             String pass = "";
             Class.forName("com.mysql.jdbc.Driver");
@@ -32,7 +32,7 @@ public class Koneksi {
 
     public void koneksi() {
         try {
-            String db = "jdbc:mysql://localhost:3306/yeontander2";
+            String db = "jdbc:mysql://localhost:3306/yeontanderpulsa";
             String user = "root";
             String pass = "";
             Class.forName("com.mysql.jdbc.Driver");
